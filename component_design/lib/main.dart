@@ -1,5 +1,7 @@
+import 'package:component_design/Components/Doctors/many_card_doctor.dart';
 import 'package:component_design/Components/Doctors/startTime_endTime.dart';
 import 'package:component_design/Components/Hospital/timeopen_timeclose.dart';
+import 'package:component_design/Components/User/videoComponent.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Center(child: Time1()),
+      home: Center(child: ManyCardDoctor()),
     );
   }
 }
