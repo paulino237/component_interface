@@ -1,3 +1,4 @@
+import 'package:component_design/Components/Doctors/appointment_screen.dart';
 import 'package:component_design/Components/Doctors/many_card_doctor.dart';
 import 'package:component_design/Components/Doctors/startTime_endTime.dart';
 import 'package:component_design/Components/Hospital/timeopen_timeclose.dart';
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Center(child: ManyCardDoctor()),
+      home: AppointmentScreen()
+      //Center(child: ManyCardDoctor()),
     );
   }
 }
